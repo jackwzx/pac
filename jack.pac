@@ -6,7 +6,7 @@ function FindProxyForURL(url, host) {
   return 'PROXY 172.22.112.191:8888;';
   break;
   case "10.164.73.70":
-  return 'PROXY 172.22.112.192:8888;';
+  return 'PROXY 172.22.112.191:8888;';
   break;
   }
   return 'DIRECT;';
